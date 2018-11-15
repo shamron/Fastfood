@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_one"
+    tools:context=".splash_screen">
+
+
+    <TextView
+        android:id="@+id/splash_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:fontFamily="cursive"
+        android:text="Fast Food"
+        android:textColor="@color/white"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/btn_getStarted"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/btn_submit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:drawableEnd="@drawable/next"
+        android:drawableRight="@drawable/next"
+        android:text="Get Started" />
+</RelativeLayout>

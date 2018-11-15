@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageButton
+        android:id="@+id/profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/userphoto"
+        android:layout_gravity="center"/>
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="@string/confirm_password"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/dark"
+        android:drawableStart="@drawable/lock"
+        android:drawableLeft="@drawable/lock"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_submit_green"/>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ActionBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/userphoto"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/profile_picture" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/reg_username"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/person"
+                android:drawableLeft="@drawable/person"
+                android:inputType="text"
+                android:hint="@string/username"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/reg_email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"
+                android:hint="@string/email"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/reg_mobile"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"
+                android:inputType="phone"
+                android:hint="@string/phone_number"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/reg_password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/lock"
+                android:drawableLeft="@drawable/lock"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark"/>
+
+            <Button
+                android:id="@+id/btn_signUp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_submit"
+                android:textColor="@color/white"
+                android:text="@string/sign_up"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

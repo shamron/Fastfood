@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fast food</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="phone_number">0700 000 000</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="please_enter_your_email_that_you_registered_with">Please enter your email that you registered with.</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account_sign_up">don\'t have an account? Sign Up</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
